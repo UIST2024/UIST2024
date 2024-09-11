@@ -1,0 +1,82 @@
+/* Basic styling for the chapters */
+.chapter {
+    display: none; /* Hide all chapters by default */
+}
+
+.chapter.active {
+    display: block; /* Show only the active chapter */
+}
+
+h2 {
+    text-indent: 2em;
+}
+
+h3 {
+    text-indent: 2em;
+}
+
+.title1 {
+    color: #fafafa; 
+    position: absolute; 
+    top: 10%;
+    left: 30%;
+    text-align: middle; 
+    vertical-align: middle;
+    font-size: 4em;
+}
+
+.title2 {
+    color: #fafafa; 
+    position: absolute;
+    top: 15%;
+    left: 30%; 
+    text-align: middle; 
+    vertical-align: middle;
+    font-size: 4em;
+}
+
+body {
+    background-color: rgb(229, 229, 229);
+}
+
+.body_box {
+    background-color: #fafafa;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #505050; 
+    text-align:left;
+    font-family:'Roboto',sans-serif;
+    font-size:1em;
+    line-height:1.5em;
+    margin: 60px auto;
+    width: 60%;
+}
+
+p {
+    text-indent: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/* Simple navigation styling */
+nav {
+    font-size:1em; 
+    white-space:nowrap; 
+    text-align:center; 
+    vertical-align:middle; 
+    margin: auto;
+}
+
+nav a {
+    padding: 10px 20px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav a.active {
+    background-color: #0056b3;
+}

@@ -52,7 +52,27 @@ body {
     width: 60%;
 }
 
+.slogan {
+    text-align: center;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 6,170, 0.75), rgba(94, 0, 148, 0.75));
+    border-radius: 10px 10px 10px 10px;
+    width: 500px;
+    height: 100px;
+    margin: auto;
+}
+
+.slogan p {
+    color: white;
+    text-indent: 0em;
+    font-size: 40px;
+}
+
 .grid {
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
@@ -60,21 +80,32 @@ body {
 
 .organizor-box {
     text-align: center;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 6,170, 0.75), rgba(94, 0, 148, 0.75));
+    border-radius: 10px 10px 10px 10px;
+    width: 250px;
 }
 
 
 .organizor-box img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     margin: 10px;
     border: 1px solid black;
-    border-radius: 100px;
-    overflow: hidden;
+    /* clip-path: circle(45%); */
+    border-radius: 75%;
+    overflow: clip;
+    border: 1em solid transparent;
+    /* background-image: url("photos/border_img.png"); */
+    border-image: url("photos/border_img.png") 75 round;
 }
 
 .organizor-box h3 {
+    display:inline-flex;
+    color: white;
     text-indent: 0em;
     font-size: 18px;
+    background: linear-gradient(to bottom, transparent, transparent, rgba(0, 6,170, 0.75));
 }
 
 p {

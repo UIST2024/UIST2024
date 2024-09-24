@@ -57,15 +57,17 @@ body {
     overflow: hidden;
     background-image: linear-gradient(rgba(0, 6,170, 0.75), rgba(94, 0, 148, 0.75));
     border-radius: 10px 10px 10px 10px;
-    width: 500px;
+    width: 600px;
     height: 100px;
     margin: auto;
+    box-shadow: 0 0 10px #505050;
 }
 
 .slogan p {
     color: white;
     text-indent: 0em;
     font-size: 40px;
+    font-family: 'HGZYT_CNKI';
 }
 
 .grid {

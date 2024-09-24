@@ -52,6 +52,31 @@ body {
     width: 60%;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.organizor-box {
+    text-align: center;
+}
+
+
+.organizor-box img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.organizor-box h3 {
+    text-indent: 0em;
+    font-size: 18px;
+}
+
 p {
     text-indent: 2em;
     padding-left: 1em;
@@ -79,9 +104,4 @@ nav a {
 
 nav a.active {
     background-color: #0056b3;
-}
-
-.img-container {
-    text-align: center;
-    margin: auto;
 }

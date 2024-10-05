@@ -73,7 +73,18 @@ body {
     background: linear-gradient(to bottom, transparent, rgba(0, 6,170, 0.75));
 }
 
-.grid_4 {
+.grid {
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+/* .grid_4 {
     text-align: center;
     align-items: center;
     justify-items: center;
@@ -93,7 +104,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     justify-content: center;
-}
+} */
 
 .organizor-box {
     text-align: center;

@@ -168,5 +168,11 @@ nav a.active {
 
 /* Committee List */
 .committee-list {
-    padding-left: 2em;
+    padding-left: 4em;
+    font-size: 1.33em;
+    margin-bottom: 100px;
+}
+
+.committee-list ul li {
+    margin-bottom: 10px;
 }

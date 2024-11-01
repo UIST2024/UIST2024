@@ -164,3 +164,9 @@ nav a {
 nav a.active {
     background-color: #0056b3;
 }
+
+
+/* Committee List */
+.committee-list {
+    padding-left: 2em;
+}

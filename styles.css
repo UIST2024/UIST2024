@@ -176,3 +176,47 @@ nav a.active {
 .committee-list ul li {
     margin-bottom: 10px;
 }
+
+.center-table {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.award-list {
+    width: 1000px;
+    height: 100px;
+    color: #000000;
+    font-size: large;
+}
+
+.award-list th, td {
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+    /* width: auto; */
+}
+
+.award-list thead th {
+    background-color: #4294fe;
+    color:  #ffffff;
+}
+
+.award-list th {
+    background-color: #6baafd;
+}
+
+.award-list tr:nth-child(even) {
+    background-color: #99c5ff;
+}
+
+.award-list tr:nth-child(odd) {
+    background-color: #6baafd;
+}
+
+.congratrulation {
+    text-align: center;
+    font-size: 3em;
+}

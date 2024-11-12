@@ -230,3 +230,65 @@ nav a.active {
     text-align: center;
     font-size: 3em;
 }
+
+.top-award {
+    width: 1100px;
+    height: 100px;
+    color: #000000;
+    font-size: large;
+}
+
+.top-award th, td {
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+    /* width: auto; */
+}
+
+.top-award thead th {
+    background-color: #ffc000;
+    color:  #ffffff;
+}
+
+.top-award th {
+    background-color: #ffd454;
+}
+
+.top-award tr:nth-child(even) {
+    background-color: #ffeeba;
+}
+
+.top-award tr:nth-child(odd) {
+    background-color: #ffd454;
+}
+
+.second-award {
+    width: 1100px;
+    height: 100px;
+    color: #000000;
+    font-size: large;
+}
+
+.second-award th, td {
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+    /* width: auto; */
+}
+
+.second-award thead th {
+    background-color: #88e64e;
+    color:  #ffffff;
+}
+
+.second-award th {
+    background-color: #a6e77e;
+}
+
+.second-award tr:nth-child(even) {
+    background-color: #e2efda;
+}
+
+.second-award tr:nth-child(odd) {
+    background-color: #a6e77e;
+}
